@@ -1,6 +1,5 @@
 #include <Arduino.h>
 #include "WiFi.h"
-
 #define WIFI_NETWORK "Redmi K30 5G"
 #define WIFI_PASSWORD "11223344"
 #define WIFI_TIMEOUT_MS 20000 // 20 second WiFi connection timeout
@@ -29,9 +28,6 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
 }
-
-
-
 
 /**
  * Task: monitor the WiFi connection and keep it alive!
